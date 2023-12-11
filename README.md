@@ -11,9 +11,9 @@ We've given you a half finished To Do App. The goal is to improve the To Do app 
 - Its already possible to _add_ and _delete_ a to do item. We would like to be able to edit a to do item as well though.
 - When a task is complete, you should be able to mark it as complete. The UI should update accordingly by striking through the title.
 
-So the key things we're looking for is use of TypeScript (there is some incorrect typing going on somewhere which will prevent the app from building for example), semantic html and CSS. Like we mentioned in the beginning, the app is half fininshed. Try to make it show at least all requirements are met.
+So the key things we're looking for is use of TypeScript (there is some incorrect typing going on somewhere which will prevent the app from building for example), semantic html and CSS. Like we mentioned in the beginning, the app is half fininshed. Try to make it so at least all requirements are met.
 
-You should be able to make significant improvements within 3 hours. You can go the extra mile if you want to show of other stuff like: adding tests, refactor the "back-end" or whatever you can come up with. But don't feel pressured into doing so, it's the extra mile.
+You should be able to make significant improvements within 3 hours. You can go the extra mile if you want to show of other stuff like: adding tests, refactor the "back-end", implement a CI/CD with GH Actions or whatever you can come up with. But don't feel pressured into doing so, it's the extra mile.
 
 Best of luck!
 
