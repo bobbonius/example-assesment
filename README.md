@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# To Do Assessment
 
-## Getting Started
+Hey there!
 
-First, run the development server:
+Great you're taking on this assessment. Down below you'll learn about all the details and what is expected.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+We've given you a half finished To Do App. The goal is to improve the To Do app keeping the following requirements in mind:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- The app is in TypeScript, so that should stay that way.
+- Focus on improving the UI as it looks kinda messy right now (some buttons take up the entire width of a container for example). You're allowed to use the packages which are installed. However, it's important you share some of your knowledge with us such as basic CSS styling. There are CSS modules in the project you can use for that.
+- Its already possible to _add_ and _delete_ a to do item. We would like to be able to edit a to do item as well though.
+- When a task is complete, you should be able to mark it as complete. The UI should update accordingly by striking through the title.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+So the key things we're looking for is use of TypeScript (there is some incorrect typing going on somewhere which will prevent the app from building for example), semantic html and CSS. Like we mentioned in the beginning, the app is half fininshed. Try to make it show at least all requirements are met.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+You should be able to make significant improvements within 3 hours. You can go the extra mile if you want to show of other stuff like: adding tests, refactor the "back-end" or whatever you can come up with. But don't feel pressured into doing so, it's the extra mile.
 
-## Learn More
+Best of luck!
 
-To learn more about Next.js, take a look at the following resources:
+## Install project
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Fork this project
+2. Create a branch with your changes
+3. pnpm install
+4. pnpx prisma migrate dev --name init
+5. pnpm dev
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+And you should be good to go, if not; feel free to contact us.

@@ -1,0 +1,18 @@
+.createList {
+  display: grid;
+  gap: 1rem;
+}
+
+.list {
+  display: grid;
+  list-style: none;
+}
+
+.listItem {
+  padding-block: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.link {
+  font-size: 0.75rem;
+}

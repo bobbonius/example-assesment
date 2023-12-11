@@ -1,0 +1,31 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model ToDoList {
+  id        Int            @id @default(autoincrement())
+  title     String
+  createdAt DateTime       @default(now())
+  updatedAt DateTime       @updatedAt
+  items     ToDoListItem[]
+}
+
+model ToDoListItem {
+  id          Int      @id @default(autoincrement())
+  title       String
+  description String
+  priority    String // Assuming priority can be a string (high, medium, low), you can adjust based on your needs
+  completed   Boolean
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  toDoList    ToDoList @relation(fields: [toDoListId], references: [id])
+  toDoListId  Int
+}
